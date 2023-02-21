@@ -4,15 +4,39 @@ class App extends Component {
     constructor()   {
         super();
         this.state = {  displayBio: false  };
+        console.log('component this', this);
+
+        // this.readMore = () =>   {
+        //     this.setState({ displayBio: true });
+        // }
+
+        // this.readMore = this.readMore.bind(this);
+        this.toggleDisplayBio = this.toggleDisplayBio.bind(this);
     }
+
+    readMore()  {
+        // this.state.displayBio = true;
+        console.log('readmore this', this);
+        this.setState({ displayBio: true });
+    }
+
+    toggleDisplayBio()  {
+        this.setState({ displayBio: !this.state.displayBio  });
+    }
+
     render()    {
         let bio = this.state.displayBio ? (
             <div>
                 <p>I live in Whitby, ON</p>
                 <p>I love to code</p>
                 <p>I want to make exceptional quality web applications</p>
+                <button onClick={this.toggleDisplayBio}>Collapse</button>
             </div>
-        ) : null;
+        ) : (
+            <div>
+                <button onClick={this.toggleDisplayBio}>Read More</button>
+            </div>
+        );
 
         // if(!this.state.displayBio)  {
         //     bio = null;
