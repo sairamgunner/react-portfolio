@@ -1,26 +1,28 @@
 import React, { Component } from 'react';
+import Projects from './Projects';
 
 class App extends Component {
-    constructor()   {
-        super();
-        this.state = {  displayBio: false  };
-        console.log('component this', this);
+    state = {  displayBio: false  }
+    // constructor()   {
+    //     super();
+    //     this.state = {  displayBio: false  };
+    //     console.log('component this', this);
 
-        // this.readMore = () =>   {
-        //     this.setState({ displayBio: true });
-        // }
+    //     // this.readMore = () =>   {
+    //     //     this.setState({ displayBio: true });
+    //     // }
 
-        // this.readMore = this.readMore.bind(this);
-        this.toggleDisplayBio = this.toggleDisplayBio.bind(this);
-    }
+    //     // this.readMore = this.readMore.bind(this);
+    //     this.toggleDisplayBio = this.toggleDisplayBio.bind(this);
+    // }
 
     readMore()  {
-        // this.state.displayBio = true;
+        // this.state.displayBio = true;  NEVER DIRECTLY MODIFY STATE
         console.log('readmore this', this);
         this.setState({ displayBio: true });
     }
 
-    toggleDisplayBio()  {
+    toggleDisplayBio = () => {
         this.setState({ displayBio: !this.state.displayBio  });
     }
 
@@ -48,6 +50,8 @@ class App extends Component {
                 <p>My name is Sairam. I am a software engineer.</p>
                 <p>Always looking forward to working on meaningful projects.</p>
                 {bio}
+                <hr />
+                <Projects />
             </div>
         );
     }
