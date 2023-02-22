@@ -2,6 +2,7 @@ import project1 from '../assets/project1.png';
 import project2 from '../assets/project2.png';
 import project3 from '../assets/project3.png';
 
+//Screen case syntax - PROJECTS (capital case) because of it being a global const
 const PROJECTS = [
     {
         id: 1,

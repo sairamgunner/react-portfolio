@@ -1,0 +1,11 @@
+@font-face {
+    font-family: Shantell Sans, cursive;
+    src: url(./assets/static/ShantellSans-Light.ttf);
+}
+
+body  {
+    text-align: center;
+    font-size: 20px;
+    padding: 2.5%;
+    font-family: Shantell Sans, cursive;
+}
