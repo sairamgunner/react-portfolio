@@ -20,7 +20,7 @@ class App extends Component {
 
     readMore() {
         // this.state.displayBio = true;  NEVER DIRECTLY MODIFY STATE
-        console.log('readmore this', this);
+        // console.log('readmore this', this);
         this.setState({ displayBio: true });
     }
 
@@ -50,7 +50,7 @@ class App extends Component {
             <div>
                 <h1>Hello!</h1>
                 <p>My name is Sairam.</p>
-                {this.state.displayBio ? <Title /> : null}
+                <Title />
                 <p>Always looking forward to working on meaningful projects.</p>
                 {bio}
                 <hr />

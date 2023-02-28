@@ -27107,7 +27107,7 @@ class App extends (0, _react.Component) {
     // }
     readMore() {
         // this.state.displayBio = true;  NEVER DIRECTLY MODIFY STATE
-        console.log("readmore this", this);
+        // console.log('readmore this', this);
         this.setState({
             displayBio: true
         });
@@ -27187,11 +27187,11 @@ class App extends (0, _react.Component) {
                     lineNumber: 52,
                     columnNumber: 17
                 }, this),
-                this.state.displayBio ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _titleDefault.default), {}, void 0, false, {
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _titleDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
                     lineNumber: 53,
-                    columnNumber: 42
-                }, this) : null,
+                    columnNumber: 17
+                }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                     children: "Always looking forward to working on meaningful projects."
                 }, void 0, false, {
@@ -28189,37 +28189,56 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 const TITLES = [
     "a software developer",
     "a music lover",
-    "an Arsenal fan"
+    "a philantrophist",
+    "an Arsenal fan",
+    "I love football"
 ];
 class Title extends (0, _react.Component) {
     state = {
-        titleIndex: 0
+        titleIndex: 0,
+        fadeIn: true
     };
     componentDidMount() {
+        console.log("componentDidMount");
+        setTimeout(()=>this.setState({
+                fadeIn: false
+            }), 2000);
         this.animateTitles();
     }
     componentWillUnmount() {
         console.log("Component will unmount");
+        clearInterval(this.titleInterval);
+        clearInterval(this.timeOut);
     }
     animateTitles = ()=>{
-        setInterval(()=>{
+        // this.titleInterval will contain an ID for the set interval. This ID is required to clear the interval later
+        // in the componentWillUnmount() function
+        this.titleInterval = setInterval(()=>{
             const titleIndex = (this.state.titleIndex + 1) % TITLES.length;
             this.setState({
-                titleIndex
+                titleIndex,
+                fadeIn: true
             });
-        }, 2000);
+            this.timeOut = setInterval(()=>this.setState({
+                    fadeIn: false
+                }), 2000);
+        }, 4000);
+        console.log(this.titleInterval);
     };
     render() {
-        console.log(this.state.titleIndex);
-        let title = TITLES[this.state.titleIndex];
+        const { fadeIn , titleIndex  } = this.state;
+        console.log(titleIndex);
+        let title = TITLES[titleIndex];
+        console.log(title);
         return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+            className: fadeIn ? "title-fade-in" : "title-fade-out",
             children: [
                 "I am ",
                 title
             ]
         }, void 0, true, {
             fileName: "src/title.js",
-            lineNumber: 32,
+            lineNumber: 44,
             columnNumber: 13
         }, this);
     }

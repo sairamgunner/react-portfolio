@@ -12,7 +12,7 @@
 60E:\Udemy\React\react-bootcamp\portfolio\node_modules\connect133218393448366274 1
 70E:\Udemy\React\react-bootcamp\portfolio\node_modules\arr-union\LICENSE131006696560000000 0
 116E:\Udemy\React\react-bootcamp\portfolio\node_modules\posthtml-parser\node_modules\dom-serializer\lib\foreignNames.js121436361000000000 0
-52E:\Udemy\React\react-bootcamp\portfolio\package.json133218393980186851 0
+52E:\Udemy\React\react-bootcamp\portfolio\package.json133220813063849409 0
 75E:\Udemy\React\react-bootcamp\portfolio\node_modules\yaml\browser\scalar.js121436361000000000 0
 61E:\Udemy\React\react-bootcamp\portfolio\node_modules\bindings133218393428153843 1
 88E:\Udemy\React\react-bootcamp\portfolio\node_modules\source-map\dist\source-map.debug.js131477959740000000 0
@@ -33,7 +33,7 @@
 84E:\Udemy\React\react-bootcamp\portfolio\node_modules\caniuse-lite\data\regions\MD.js121436361000000000 0
 117E:\Udemy\React\react-bootcamp\portfolio\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\lexer\search.js121436361000000000 0
 123E:\Udemy\React\react-bootcamp\portfolio\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\Number.js121436361000000000 0
-44E:\Udemy\React\react-bootcamp\portfolio\dist133220246293574426 1
+44E:\Udemy\React\react-bootcamp\portfolio\dist133220813089716821 1
 67E:\Udemy\React\react-bootcamp\portfolio\node_modules\is-binary-path133218393428618068 1
 101E:\Udemy\React\react-bootcamp\portfolio\node_modules\unset-value\node_modules\has-values\package.json133218393448175849 0
 72E:\Udemy\React\react-bootcamp\portfolio\node_modules\nanomatch\README.md121436361000000000 0
@@ -51,7 +51,7 @@
 89E:\Udemy\React\react-bootcamp\portfolio\node_modules\lightningcss\node\composeVisitors.js121436361000000000 0
 73E:\Udemy\React\react-bootcamp\portfolio\node_modules\ret\lib\positions.js131132065910000000 0
 82E:\Udemy\React\react-bootcamp\portfolio\node_modules\@parcel\watcher\src\Signal.hh121436361000000000 0
-52E:\Udemy\React\react-bootcamp\portfolio\concepts.txt133220227403833617 0
+52E:\Udemy\React\react-bootcamp\portfolio\concepts.txt133220687404239482 0
 107E:\Udemy\React\react-bootcamp\portfolio\node_modules\posthtml-parser\node_modules\domutils\lib\traversal.js121436361000000000 0
 52E:\Udemy\React\react-bootcamp\portfolio\node_modules133218393537562938 1
 92E:\Udemy\React\react-bootcamp\portfolio\node_modules\readable-stream\lib\_stream_writable.js121436361000000000 0
@@ -72,7 +72,7 @@
 124E:\Udemy\React\react-bootcamp\portfolio\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\atrule\index.js121436361000000000 0
 75E:\Udemy\React\react-bootcamp\portfolio\node_modules\setprototypeof\LICENSE121436361000000000 0
 98E:\Udemy\React\react-bootcamp\portfolio\node_modules\@parcel\runtime-js\src\helpers\.eslintrc.json121436361000000000 0
-50E:\Udemy\React\react-bootcamp\portfolio\src\App.js133220246229338538 0
+50E:\Udemy\React\react-bootcamp\portfolio\src\App.js133220777689704313 0
 74E:\Udemy\React\react-bootcamp\portfolio\node_modules\object-assign\license131218952240000000 0
 74E:\Udemy\React\react-bootcamp\portfolio\node_modules\range-parser\index.js121436361000000000 0
 89E:\Udemy\React\react-bootcamp\portfolio\node_modules\caniuse-lite\data\features\webhid.js121436361000000000 0
@@ -108,7 +108,7 @@
 97E:\Udemy\React\react-bootcamp\portfolio\node_modules\@swc\helpers\node_modules\tslib\tslib.es6.js121436361000000000 0
 65E:\Udemy\React\react-bootcamp\portfolio\node_modules\lightningcss133218389079806981 1
 133E:\Udemy\React\react-bootcamp\portfolio\node_modules\@parcel\transformer-posthtml\node_modules\entities\lib\decode_codepoint.d.ts.map121436361000000000 0
-53E:\Udemy\React\react-bootcamp\portfolio\src\index.css133215610461166446 0
+53E:\Udemy\React\react-bootcamp\portfolio\src\index.css133220820003179081 0
 72E:\Udemy\React\react-bootcamp\portfolio\node_modules\ordered-binary\dist133218388884524937 1
 59E:\Udemy\React\react-bootcamp\portfolio\node_modules\unpipe133218393450080846 1
 109E:\Udemy\React\react-bootcamp\portfolio\node_modules\source-map-support\node_modules\source-map\source-map.js131508414070000000 0
@@ -130,7 +130,7 @@
 104E:\Udemy\React\react-bootcamp\portfolio\node_modules\define-property\node_modules\is-accessor-descriptor133218393516594799 1
 80E:\Udemy\React\react-bootcamp\portfolio\node_modules\@parcel\watcher\src\Glob.hh121436361000000000 0
 65E:\Udemy\React\react-bootcamp\portfolio\node_modules\resolve-from133218389044018979 1
-54E:\Udemy\React\react-bootcamp\portfolio\src\index.html133218387342302301 0
+54E:\Udemy\React\react-bootcamp\portfolio\src\index.html133220790433901956 0
 110E:\Udemy\React\react-bootcamp\portfolio\node_modules\csso\node_modules\css-tree\lib\syntax\node\Parentheses.js121436361000000000 0
 69E:\Udemy\React\react-bootcamp\portfolio\node_modules\file-uri-to-path133218393427997354 1
 79E:\Udemy\React\react-bootcamp\portfolio\node_modules\lmdb\util\RangeIterable.js121436361000000000 0
@@ -160,7 +160,7 @@
 83E:\Udemy\React\react-bootcamp\portfolio\node_modules\xxhash-wasm\umd\xxhash-wasm.js121436361000000000 0
 84E:\Udemy\React\react-bootcamp\portfolio\node_modules\type-fest\source\utilities.d.ts121436361000000000 0
 88E:\Udemy\React\react-bootcamp\portfolio\node_modules\msgpackr\dist\index-no-eval.cjs.map121436361000000000 0
-52E:\Udemy\React\react-bootcamp\portfolio\src\Title.js133220180447863147 0
+52E:\Udemy\React\react-bootcamp\portfolio\src\Title.js133220823190738146 0
 73E:\Udemy\React\react-bootcamp\portfolio\node_modules\object.pick\index.js131475747570000000 0
 98E:\Udemy\React\react-bootcamp\portfolio\node_modules\extglob\node_modules\define-property\index.js130854761630000000 0
 84E:\Udemy\React\react-bootcamp\portfolio\node_modules\caniuse-lite\data\regions\NP.js121436361000000000 0
@@ -1155,7 +1155,7 @@
 78E:\Udemy\React\react-bootcamp\portfolio\node_modules\terser\lib\utils\index.js121436361000000000 0
 101E:\Udemy\React\react-bootcamp\portfolio\node_modules\websocket-driver\lib\websocket\driver\draft75.js121436361000000000 0
 81E:\Udemy\React\react-bootcamp\portfolio\node_modules\csso\lib\restructure\prepare133218388908206593 1
-66E:\Udemy\React\react-bootcamp\portfolio\dist\project1.cae3be24.png133220246291516452 0
+66E:\Udemy\React\react-bootcamp\portfolio\dist\project1.cae3be24.png133220813088522578 0
 73E:\Udemy\React\react-bootcamp\portfolio\node_modules\msgpackr\index.d.cts121436361000000000 0
 63E:\Udemy\React\react-bootcamp\portfolio\node_modules\source-map133218393470392303 1
 102E:\Udemy\React\react-bootcamp\portfolio\node_modules\@parcel\optimizer-svgo\node_modules\.bin\svgo.cmd133218389132270594 0
@@ -2845,7 +2845,7 @@
 73E:\Udemy\React\react-bootcamp\portfolio\node_modules\range-parser\LICENSE121436361000000000 0
 94E:\Udemy\React\react-bootcamp\portfolio\node_modules\@parcel\namer-default\lib\DefaultNamer.js121436361000000000 0
 99E:\Udemy\React\react-bootcamp\portfolio\node_modules\caniuse-lite\data\features\meta-theme-color.js121436361000000000 0
-66E:\Udemy\React\react-bootcamp\portfolio\dist\project3.104d946c.png133220246291418227 0
+66E:\Udemy\React\react-bootcamp\portfolio\dist\project3.104d946c.png133220813088522578 0
 113E:\Udemy\React\react-bootcamp\portfolio\node_modules\readdirp\node_modules\is-number\node_modules\kind-of\LICENSE130922319970000000 0
 118E:\Udemy\React\react-bootcamp\portfolio\node_modules\readdirp\node_modules\is-number\node_modules\kind-of\package.json133218393480462306 0
 83E:\Udemy\React\react-bootcamp\portfolio\node_modules\process-nextick-args\readme.md121436361000000000 0
@@ -3029,7 +3029,7 @@
 79E:\Udemy\React\react-bootcamp\portfolio\node_modules\proxy-middleware\README.md130831890490000000 0
 91E:\Udemy\React\react-bootcamp\portfolio\node_modules\msgpackr\dist\index-no-eval.min.js.map121436361000000000 0
 82E:\Udemy\React\react-bootcamp\portfolio\node_modules\process-nextick-args\index.js121436361000000000 0
-62E:\Udemy\React\react-bootcamp\portfolio\dist\index.975ef6c8.js133220246293116788 0
+62E:\Udemy\React\react-bootcamp\portfolio\dist\index.975ef6c8.js133220813089560571 0
 84E:\Udemy\React\react-bootcamp\portfolio\node_modules\process-nextick-args\license.md121436361000000000 0
 70E:\Udemy\React\react-bootcamp\portfolio\node_modules\process\.eslintrc131169613630000000 0
 88E:\Udemy\React\react-bootcamp\portfolio\node_modules\@parcel\transformer-babel\README.md121436361000000000 0
@@ -4128,7 +4128,7 @@
 104E:\Udemy\React\react-bootcamp\portfolio\node_modules\@parcel\core\node_modules\dotenv\lib\env-options.js121436361000000000 0
 89E:\Udemy\React\react-bootcamp\portfolio\node_modules\htmlnano\docs\docs\060-contribute.md121436361000000000 0
 74E:\Udemy\React\react-bootcamp\portfolio\node_modules\get-port\package.json133218389002187354 0
-67E:\Udemy\React\react-bootcamp\portfolio\dist\index.61d3354a.css.map133220246293222325 0
+67E:\Udemy\React\react-bootcamp\portfolio\dist\index.61d3354a.css.map133220813089716821 0
 137E:\Udemy\React\react-bootcamp\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\dom-serializer\lib\esm\foreignNames.d.ts.map121436361000000000 0
 71E:\Udemy\React\react-bootcamp\portfolio\node_modules\has-values\LICENSE130717226900000000 0
 93E:\Udemy\React\react-bootcamp\portfolio\node_modules\caniuse-lite\data\features\fullscreen.js121436361000000000 0
@@ -4660,7 +4660,7 @@
 105E:\Udemy\React\react-bootcamp\portfolio\node_modules\@parcel\optimizer-image\parcel-image.darwin-x64.node121436361000000000 0
 99E:\Udemy\React\react-bootcamp\portfolio\node_modules\csso\node_modules\css-tree\lib\parser\index.js121436361000000000 0
 98E:\Udemy\React\react-bootcamp\portfolio\node_modules\csso\node_modules\css-tree\lib\lexer\error.js121436361000000000 0
-55E:\Udemy\React\react-bootcamp\portfolio\dist\index.html133220246292824340 0
+55E:\Udemy\React\react-bootcamp\portfolio\dist\index.html133220813089248145 0
 110E:\Udemy\React\react-bootcamp\portfolio\node_modules\csso\node_modules\css-tree\lib\lexer\generic-an-plus-b.js121436361000000000 0
 100E:\Udemy\React\react-bootcamp\portfolio\node_modules\csso\node_modules\css-tree\lib\lexer\generic.js121436361000000000 0
 98E:\Udemy\React\react-bootcamp\portfolio\node_modules\csso\node_modules\css-tree\lib\lexer\Lexer.js121436361000000000 0
@@ -4723,7 +4723,7 @@
 92E:\Udemy\React\react-bootcamp\portfolio\node_modules\caniuse-lite\data\features\indexeddb.js121436361000000000 0
 84E:\Udemy\React\react-bootcamp\portfolio\node_modules\caniuse-lite\data\regions\BJ.js121436361000000000 0
 70E:\Udemy\React\react-bootcamp\portfolio\node_modules\csso\dist\csso.js121436361000000000 0
-71E:\Udemy\React\react-bootcamp\portfolio\dist\linkedin_icon.305baa80.png133220246291276456 0
+71E:\Udemy\React\react-bootcamp\portfolio\dist\linkedin_icon.305baa80.png133220813088366365 0
 69E:\Udemy\React\react-bootcamp\portfolio\node_modules\cosmiconfig\dist133218388881471349 1
 117E:\Udemy\React\react-bootcamp\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node133218388911685227 1
 72E:\Udemy\React\react-bootcamp\portfolio\node_modules\cosmiconfig\LICENSE121436361000000000 0
@@ -7113,7 +7113,7 @@
 122E:\Udemy\React\react-bootcamp\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\dom-serializer\lib\index.d.ts121436361000000000 0
 83E:\Udemy\React\react-bootcamp\portfolio\node_modules\@parcel\core\node_modules\.bin133218389131239165 1
 126E:\Udemy\React\react-bootcamp\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\dom-serializer\lib\index.d.ts.map121436361000000000 0
-63E:\Udemy\React\react-bootcamp\portfolio\dist\index.61d3354a.css133220246293107608 0
+63E:\Udemy\React\react-bootcamp\portfolio\dist\index.61d3354a.css133220813089560571 0
 133E:\Udemy\React\react-bootcamp\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\dom-serializer\lib\esm\foreignNames.d.ts121436361000000000 0
 126E:\Udemy\React\react-bootcamp\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\dom-serializer\lib\esm\index.d.ts121436361000000000 0
 112E:\Udemy\React\react-bootcamp\portfolio\node_modules\@jridgewell\source-map\node_modules\@jridgewell\gen-mapping133218388986813170 1
@@ -7622,11 +7622,11 @@
 68E:\Udemy\React\react-bootcamp\portfolio\node_modules\.bin\parcel.ps1133218389132542806 0
 68E:\Udemy\React\react-bootcamp\portfolio\node_modules\.bin\terser.cmd133218389132339756 0
 68E:\Udemy\React\react-bootcamp\portfolio\node_modules\.bin\terser.ps1133218389132339756 0
-68E:\Udemy\React\react-bootcamp\portfolio\dist\email_icon.76f72482.png133220246291266478 0
-69E:\Udemy\React\react-bootcamp\portfolio\dist\github_icon.f77180bd.png133220246291296407 0
-66E:\Udemy\React\react-bootcamp\portfolio\dist\index.975ef6c8.js.map133220246293524622 0
+68E:\Udemy\React\react-bootcamp\portfolio\dist\email_icon.76f72482.png133220813088366365 0
+69E:\Udemy\React\react-bootcamp\portfolio\dist\github_icon.f77180bd.png133220813088366365 0
+66E:\Udemy\React\react-bootcamp\portfolio\dist\index.975ef6c8.js.map133220813089716821 0
 62E:\Udemy\React\react-bootcamp\portfolio\dist\index.d788f3c2.js133218394386623907 0
 66E:\Udemy\React\react-bootcamp\portfolio\dist\project2.2f0af93c.png133218394385341217 0
-66E:\Udemy\React\react-bootcamp\portfolio\dist\project2.d47934b7.png133220246291387061 0
-76E:\Udemy\React\react-bootcamp\portfolio\dist\ShantellSans-Light.bdb09949.ttf133220246291455978 0
-70E:\Udemy\React\react-bootcamp\portfolio\dist\twitter_icon.96c76d1b.png133220246291276456 0
+66E:\Udemy\React\react-bootcamp\portfolio\dist\project2.d47934b7.png133220813088522578 0
+76E:\Udemy\React\react-bootcamp\portfolio\dist\ShantellSans-Light.bdb09949.ttf133220813088522578 0
+70E:\Udemy\React\react-bootcamp\portfolio\dist\twitter_icon.96c76d1b.png133220813088366365 0
