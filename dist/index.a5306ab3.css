@@ -1,0 +1,2 @@
+@font-face{font-family:Shantell Sans,cursive;src:url(ShantellSans-Light.ba6dbfa1.ttf)}body{text-align:center;padding:2.5%;font-family:Shantell Sans,cursive;font-size:20px}.title-fade-out{opacity:0;animation-name:fade-out;animation-duration:2s}.title-fade-in{opacity:100;animation-name:fade-in;animation-duration:2s}@keyframes fade-out{0%{opacity:100}to{opacity:0}}@keyframes fade-in{0%{opacity:0}to{opacity:100}}
+/*# sourceMappingURL=index.a5306ab3.css.map */

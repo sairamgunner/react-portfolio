@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Projects from './Projects';
-import Title from './title';
+import Title from './Title';
 import SocialProfiles from './SocialProfiles';
 
 class App extends Component {

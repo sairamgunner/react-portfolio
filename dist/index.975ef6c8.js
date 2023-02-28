@@ -27087,7 +27087,7 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _projects = require("./Projects");
 var _projectsDefault = parcelHelpers.interopDefault(_projects);
-var _title = require("./title");
+var _title = require("./Title");
 var _titleDefault = parcelHelpers.interopDefault(_title);
 var _socialProfiles = require("./SocialProfiles");
 var _socialProfilesDefault = parcelHelpers.interopDefault(_socialProfiles);
@@ -27235,7 +27235,7 @@ exports.default = App;
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Projects":"aLAmU","./SocialProfiles":"eMaOk","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./title":"5Hqx2"}],"aLAmU":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Projects":"aLAmU","./SocialProfiles":"eMaOk","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Title":"8uviF"}],"aLAmU":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$5daf = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27249,95 +27249,91 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _projects = require("./data/projects");
 var _projectsDefault = parcelHelpers.interopDefault(_projects);
-class Project extends (0, _react.Component) {
-    render() {
-        // console.log('this.props', this.props);
-        const { title , image , description , link  } = this.props.project;
-        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            style: {
-                display: "inline-block",
-                width: 300,
-                margin: 50
-            },
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                    children: title
-                }, void 0, false, {
-                    fileName: "src/Projects.js",
-                    lineNumber: 10,
-                    columnNumber: 17
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: image,
-                    alt: "profile",
-                    style: {
-                        width: 200,
-                        height: 120
-                    }
-                }, void 0, false, {
-                    fileName: "src/Projects.js",
-                    lineNumber: 11,
-                    columnNumber: 17
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    children: description
-                }, void 0, false, {
-                    fileName: "src/Projects.js",
-                    lineNumber: 12,
-                    columnNumber: 17
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                    href: link,
-                    children: link
-                }, void 0, false, {
-                    fileName: "src/Projects.js",
-                    lineNumber: 13,
-                    columnNumber: 17
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/Projects.js",
-            lineNumber: 9,
-            columnNumber: 13
-        }, this);
-    }
-}
-class Projects extends (0, _react.Component) {
-    render() {
-        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                    children: "Highlighted Projects"
-                }, void 0, false, {
-                    fileName: "src/Projects.js",
-                    lineNumber: 23,
-                    columnNumber: 17
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    children: (0, _projectsDefault.default).map((PROJECT)=>{
-                        return(// <div key={PROJECT.id}>{PROJECT.title}</div> //added project id
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Project, {
-                            project: PROJECT
-                        }, PROJECT.id, false, {
-                            fileName: "src/Projects.js",
-                            lineNumber: 29,
-                            columnNumber: 33
-                        }, this));
-                    })
-                }, void 0, false, {
-                    fileName: "src/Projects.js",
-                    lineNumber: 24,
-                    columnNumber: 17
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/Projects.js",
-            lineNumber: 22,
-            columnNumber: 13
-        }, this);
-    }
-}
+const Project = (props)=>{
+    const { title , image , description , link  } = props.project;
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        style: {
+            display: "inline-block",
+            width: 300,
+            margin: 50
+        },
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                children: title
+            }, void 0, false, {
+                fileName: "src/Projects.js",
+                lineNumber: 8,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                src: image,
+                alt: "profile",
+                style: {
+                    width: 200,
+                    height: 120
+                }
+            }, void 0, false, {
+                fileName: "src/Projects.js",
+                lineNumber: 9,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                children: description
+            }, void 0, false, {
+                fileName: "src/Projects.js",
+                lineNumber: 10,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: link,
+                children: link
+            }, void 0, false, {
+                fileName: "src/Projects.js",
+                lineNumber: 11,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/Projects.js",
+        lineNumber: 7,
+        columnNumber: 9
+    }, undefined);
+};
+_c = Project;
+const Projects = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                children: "Highlighted Projects"
+            }, void 0, false, {
+                fileName: "src/Projects.js",
+                lineNumber: 18,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: (0, _projectsDefault.default).map((PROJECT)=>// <div key={PROJECT.id}>{PROJECT.title}</div> //added project id
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Project, {
+                        project: PROJECT
+                    }, PROJECT.id, false, {
+                        fileName: "src/Projects.js",
+                        lineNumber: 23,
+                        columnNumber: 29
+                    }, undefined))
+            }, void 0, false, {
+                fileName: "src/Projects.js",
+                lineNumber: 19,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/Projects.js",
+        lineNumber: 17,
+        columnNumber: 9
+    }, undefined);
+_c1 = Projects;
 exports.default = Projects;
+var _c, _c1;
+$RefreshReg$(_c, "Project");
+$RefreshReg$(_c1, "Projects");
 
   $parcel$ReactRefreshHelpers$5daf.postlude(module);
 } finally {
@@ -28174,11 +28170,11 @@ module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "linked
 },{"./helpers/bundle-url":"lgJ39"}],"3bmPd":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "twitter_icon.96c76d1b.png" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"5Hqx2":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$1f0a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./helpers/bundle-url":"lgJ39"}],"8uviF":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$6caf = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$1f0a.prelude(module);
+$parcel$ReactRefreshHelpers$6caf.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -28189,9 +28185,8 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 const TITLES = [
     "a software developer",
     "a music lover",
-    "a philantrophist",
-    "an Arsenal fan",
-    "I love football"
+    "a philanthrophist",
+    "an Arsenal fan"
 ];
 class Title extends (0, _react.Component) {
     state = {
@@ -28199,14 +28194,12 @@ class Title extends (0, _react.Component) {
         fadeIn: true
     };
     componentDidMount() {
-        console.log("componentDidMount");
-        setTimeout(()=>this.setState({
+        this.timeOut = setTimeout(()=>this.setState({
                 fadeIn: false
             }), 2000);
         this.animateTitles();
     }
     componentWillUnmount() {
-        console.log("Component will unmount");
         clearInterval(this.titleInterval);
         clearInterval(this.timeOut);
     }
@@ -28219,17 +28212,14 @@ class Title extends (0, _react.Component) {
                 titleIndex,
                 fadeIn: true
             });
-            this.timeOut = setInterval(()=>this.setState({
+            this.timeOut = setTimeout(()=>this.setState({
                     fadeIn: false
                 }), 2000);
         }, 4000);
-        console.log(this.titleInterval);
     };
     render() {
         const { fadeIn , titleIndex  } = this.state;
-        console.log(titleIndex);
-        let title = TITLES[titleIndex];
-        console.log(title);
+        const title = TITLES[titleIndex];
         return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
             className: fadeIn ? "title-fade-in" : "title-fade-out",
             children: [
@@ -28237,15 +28227,15 @@ class Title extends (0, _react.Component) {
                 title
             ]
         }, void 0, true, {
-            fileName: "src/title.js",
-            lineNumber: 44,
+            fileName: "src/Title.js",
+            lineNumber: 37,
             columnNumber: 13
         }, this);
     }
 }
 exports.default = Title;
 
-  $parcel$ReactRefreshHelpers$1f0a.postlude(module);
+  $parcel$ReactRefreshHelpers$6caf.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
