@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import Projects from './Projects';
+import Title from './title';
 import SocialProfiles from './SocialProfiles';
 
 class App extends Component {
-    state = {  displayBio: false  }
+    state = { displayBio: false }
     // constructor()   {
     //     super();
     //     this.state = {  displayBio: false  };
@@ -17,21 +18,21 @@ class App extends Component {
     //     this.toggleDisplayBio = this.toggleDisplayBio.bind(this);
     // }
 
-    readMore()  {
+    readMore() {
         // this.state.displayBio = true;  NEVER DIRECTLY MODIFY STATE
         console.log('readmore this', this);
         this.setState({ displayBio: true });
     }
 
     toggleDisplayBio = () => {
-        this.setState({ displayBio: !this.state.displayBio  });
+        this.setState({ displayBio: !this.state.displayBio });
     }
 
-    render()    {
+    render() {
         let bio = this.state.displayBio ? (
             <div>
-                <p>I live in Whitby, ON</p>
                 <p>I love to code</p>
+                <p>I live in Whitby, ON</p>
                 <p>I want to make exceptional quality web applications</p>
                 <button onClick={this.toggleDisplayBio}>Collapse</button>
             </div>
@@ -45,10 +46,11 @@ class App extends Component {
         //     bio = null;
         // }
 
-        return  (
+        return (
             <div>
                 <h1>Hello!</h1>
-                <p>My name is Sairam. I am a software engineer.</p>
+                <p>My name is Sairam.</p>
+                {this.state.displayBio ? <Title /> : null}
                 <p>Always looking forward to working on meaningful projects.</p>
                 {bio}
                 <hr />
