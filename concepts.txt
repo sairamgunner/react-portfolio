@@ -1,3 +1,5 @@
 Revisiting : Different types of for loops in JavaScript
 
 https://dltlabs.medium.com/for-loops-are-old-news-8d67172559e2
+
+https://www.freecodecamp.org/news/javascript-array-foreach-tutorial-how-to-iterate-through-elements-in-an-array-with-map/#:~:text=The%20forEach()%20method%20calls,is%20currently%20being%20iterated%20over.
