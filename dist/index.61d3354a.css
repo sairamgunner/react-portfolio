@@ -1,13 +1,29 @@
 @font-face {
-  font-family: Shantell Sans, cursive;
-  src: url("ShantellSans-Light.bdb09949.ttf");
+  font-family: RobotoCondensed;
+  src: url("roboto-condensed.light.a5f9c5f3.ttf");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: EconomicaBold;
+  src: url("economica-bold.a4fc1a89.ttf");
 }
 
 body {
   text-align: center;
   padding: 2.5%;
-  font-family: Shantell Sans, cursive;
-  font-size: 20px;
+  font-family: RobotoCondensed !important;
+  font-size: 20px !important;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: EconomicaBold !important;
+}
+
+.profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
 }
 
 .title-fade-out {
