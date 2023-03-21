@@ -27091,6 +27091,8 @@ var _title = require("./components/Title");
 var _titleDefault = parcelHelpers.interopDefault(_title);
 var _socialProfiles = require("./components/SocialProfiles");
 var _socialProfilesDefault = parcelHelpers.interopDefault(_socialProfiles);
+var _jokes = require("./components/Jokes");
+var _jokesDefault = parcelHelpers.interopDefault(_jokes);
 class App extends (0, _react.Component) {
     state = {
         displayBio: false
@@ -27124,21 +27126,21 @@ class App extends (0, _react.Component) {
                     children: "I love to code"
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 34,
+                    lineNumber: 35,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                     children: "I live in Whitby, ON"
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 35,
+                    lineNumber: 36,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                     children: "I want to make exceptional quality web applications"
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 36,
+                    lineNumber: 37,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -27146,13 +27148,13 @@ class App extends (0, _react.Component) {
                     children: "Collapse"
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 37,
+                    lineNumber: 38,
                     columnNumber: 17
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/App.js",
-            lineNumber: 33,
+            lineNumber: 34,
             columnNumber: 13
         }, this) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -27160,12 +27162,12 @@ class App extends (0, _react.Component) {
                 children: "Read More"
             }, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 41,
+                lineNumber: 42,
                 columnNumber: 17
             }, this)
         }, void 0, false, {
             fileName: "src/App.js",
-            lineNumber: 40,
+            lineNumber: 41,
             columnNumber: 13
         }, this);
         // if(!this.state.displayBio)  {
@@ -27177,53 +27179,63 @@ class App extends (0, _react.Component) {
                     children: "Hello!"
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 51,
+                    lineNumber: 52,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                     children: "My name is Sairam."
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 52,
+                    lineNumber: 53,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _titleDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 53,
+                    lineNumber: 54,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                     children: "Always looking forward to working on meaningful projects."
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 54,
+                    lineNumber: 55,
                     columnNumber: 17
                 }, this),
                 bio,
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 56,
+                    lineNumber: 57,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 57,
+                    lineNumber: 58,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 58,
+                    lineNumber: 59,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _socialProfilesDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 59,
+                    lineNumber: 60,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
+                    fileName: "src/App.js",
+                    lineNumber: 61,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jokesDefault.default), {}, void 0, false, {
+                    fileName: "src/App.js",
+                    lineNumber: 62,
                     columnNumber: 17
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/App.js",
-            lineNumber: 50,
+            lineNumber: 51,
             columnNumber: 13
         }, this);
     }
@@ -27235,7 +27247,7 @@ exports.default = App;
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/Projects":"16pwG","./components/Title":"6wotK","./components/SocialProfiles":"1RVkN"}],"gkKU3":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/Projects":"16pwG","./components/Title":"6wotK","./components/SocialProfiles":"1RVkN","./components/Jokes":"azgA9"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -28240,6 +28252,122 @@ module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "linked
 },{"./helpers/bundle-url":"lgJ39"}],"3bmPd":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "twitter_icon.96c76d1b.png" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"irmnC":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire2041")
+},{"./helpers/bundle-url":"lgJ39"}],"azgA9":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$40f0 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$40f0.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+class Jokes extends (0, _react.Component) {
+    state = {
+        joke: {},
+        jokes: {}
+    };
+    componentDidMount() {
+        this.fetchOneJoke();
+    }
+    fetchOneJoke() {
+        fetch("https://official-joke-api.appspot.com/random_joke").then((response)=>response.json()).then((json)=>this.setState({
+                joke: json
+            }));
+    }
+    fetchTenJokes() {
+        fetch("https://official-joke-api.appspot.com/random_ten").then((response)=>response.json()).then((json)=>this.setState({
+                jokes: json
+            }));
+    }
+    render() {
+        const { setup , punchline  } = this.state.joke;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                            children: "Highlighted Joke"
+                        }, void 0, false, {
+                            fileName: "src/components/Jokes.js",
+                            lineNumber: 27,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: [
+                                setup,
+                                " ",
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("em", {
+                                    children: punchline
+                                }, void 0, false, {
+                                    fileName: "src/components/Jokes.js",
+                                    lineNumber: 28,
+                                    columnNumber: 34
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Jokes.js",
+                            lineNumber: 28,
+                            columnNumber: 21
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/Jokes.js",
+                    lineNumber: 26,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                            children: "Interested in 10 more jokes?"
+                        }, void 0, false, {
+                            fileName: "src/components/Jokes.js",
+                            lineNumber: 31,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            onClick: this.fetchTenJokes,
+                            children: "Let's Go!"
+                        }, void 0, false, {
+                            fileName: "src/components/Jokes.js",
+                            lineNumber: 32,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                            children: "Ta Da!!!"
+                        }, void 0, false, {
+                            fileName: "src/components/Jokes.js",
+                            lineNumber: 35,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {}, void 0, false, {
+                            fileName: "src/components/Jokes.js",
+                            lineNumber: 36,
+                            columnNumber: 21
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/Jokes.js",
+                    lineNumber: 30,
+                    columnNumber: 17
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/Jokes.js",
+            lineNumber: 25,
+            columnNumber: 13
+        }, this);
+    }
+}
+exports.default = Jokes;
+
+  $parcel$ReactRefreshHelpers$40f0.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"irmnC":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire2041")
 
 //# sourceMappingURL=index.975ef6c8.js.map
