@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Header from './components/Header';
 import Projects from './components/Projects';
 import Title from './components/Title';
 import SocialProfiles from './components/SocialProfiles';
@@ -48,6 +49,7 @@ class App extends Component {
 
         return (
             <div>
+                <Header />
                 <h1>Hello!</h1>
                 <p>My name is Sairam.</p>
                 <Title />
