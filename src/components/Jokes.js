@@ -26,6 +26,7 @@ class Jokes extends Component {
                     <h2>Highlighted Joke</h2>
                     <Joke joke = {this.state.joke}/>
                 </div>
+                <hr />
                 <div>
                     <h2>Interested in 10 more jokes?</h2>
                     <button onClick={this.fetchTenJokes}>
