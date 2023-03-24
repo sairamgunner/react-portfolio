@@ -7,3 +7,5 @@ https://www.freecodecamp.org/news/javascript-array-foreach-tutorial-how-to-itera
 
 Dev Tools for React.js
 https://reactjs.org/blog/2015/09/02/new-react-developer-tools.html#installation
+
+Free Public APIs - https://github.com/toddmotto/public-apis
