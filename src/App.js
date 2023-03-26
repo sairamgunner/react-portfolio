@@ -7,22 +7,8 @@ import profile from './assets/profile.jpg';
 
 class App extends Component {
     state = { displayBio: false }
-    // constructor()   {
-    //     super();
-    //     this.state = {  displayBio: false  };
-    //     console.log('component this', this);
-
-    //     // this.readMore = () =>   {
-    //     //     this.setState({ displayBio: true });
-    //     // }
-
-    //     // this.readMore = this.readMore.bind(this);
-    //     this.toggleDisplayBio = this.toggleDisplayBio.bind(this);
-    // }
 
     readMore() {
-        // this.state.displayBio = true;  NEVER DIRECTLY MODIFY STATE
-        // console.log('readmore this', this);
         this.setState({ displayBio: true });
     }
 
@@ -43,10 +29,6 @@ class App extends Component {
                 <button onClick={this.toggleDisplayBio}>Read More</button>
             </div>
         );
-
-        // if(!this.state.displayBio)  {
-        //     bio = null;
-        // }
 
         return (
             <div>
